@@ -230,3 +230,47 @@ align-self: flex-start;
 }
 /* ---------- 5. RODAPÉ ---------- */
 /* .rodape-conteudo, .rodape-contato, .rodape-links */
+.rodape {
+   background: #09090a;
+   padding-top: 4rem;
+   border-top: 1px solid var(--cinza);
+}
+
+.rodape-conteudo {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 2.5rem;
+   padding-bottom: 3rem;
+}
+
+.rodape-marca {
+   max-width: 280px;
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem;
+}
+
+.rodape-contato {
+   display: flex;
+   flex-direction: column;
+   gap: 0.4rem;
+   font-size: 0.92rem;
+}
+
+.rodape-contato a:hover, .rodape-links a:hover {
+   color: var(--ouro);
+}
+.rodape-links {
+   display: flex;
+   flex-direction: column;
+   gap: 0.6rem;
+   font-size: 0.92rem;
+}
+
+.rodape-copy {
+   text-align: center;
+   padding-top: 1.4rem;
+   border-top: 1px solid var(--cinza);
+   font-size: 0.8rem;
+}
